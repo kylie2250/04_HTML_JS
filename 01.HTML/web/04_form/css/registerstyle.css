@@ -1,0 +1,47 @@
+@charset "UTF-8";
+/*가입폼에 적용할 스타일*/
+
+table, th, td {
+	border: 1px solid black;
+}
+
+.titles {
+	font-size: 20px;
+	font-weight: bold;
+	background-color: rgb(153, 204, 255);
+}
+.input {
+	background-color: rgb(0,179,107);
+}
+
+/*input type=text, password 속석값을 가진 경우*/
+
+input[type=text],
+input[type=password] {
+	/*너비 지정*/
+	widh: 70;
+	/*경계선 스타일 지정*/
+	border: 1px solid rgb(9, 102, 102);
+	border-radius: 4px;
+	/*경계선과 컨텐츠 사이의 여백*/
+	padding: 5px;
+	 
+}
+
+input[type=submit],
+input[type=reset] {
+	width:20%;
+	/*배경색 스타일*/
+	background-color: #4CAF50;
+	color: white;
+	padding: 5px;
+	border: none;
+	border-radius: 4px;
+	/*마우스가 버튼에 올라갈때*/
+	cursor: pointer;
+}
+
+input[type=reset] {
+	/*초기화 버튼을 붉은 색으로*/
+	background-color: red;
+}

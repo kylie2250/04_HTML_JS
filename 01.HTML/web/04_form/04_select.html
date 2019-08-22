@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>04_select</title>
+</head>
+<body>
+<!-- formdksdp select 태크 -->
+	<!-- 여러가지 선택지 중엣서 하나를 선택 select 전화번호 지역번호 선택할때 자주 사용되는 형태 
+	이메일의 도메인 선택등으로 사용되는 경우가 다수  -->
+<!-- form[name="e=mailform" action=""]select[name="email"]>option[value]*5
+ -->
+<form action="" name="emailform" > 
+<input type="text" name="emailID" size="10" /> @
+	<select name="emailDomain">
+		<option value="naver.com"> 네이버
+		</option>
+		<option value="daum.net"> 다음</option>
+		<option value="gmail.net"> 쥐메일</option>
+		<option value="nate.com"> 네이트</option>
+		<option value="yahoo.co.kr"> 야후</option>
+	</select>
+	
+	<input type="submit" value="전송" nbsp;/> 
+		<input type="reset" value="초기화" />
+</form>
+</body>
+</html>

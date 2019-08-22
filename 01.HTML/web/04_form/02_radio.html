@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>02_radio</title>
+</head>
+<body>
+<form>
+<!-- form input type중 radio타입 -->
+	<!--  for[action="""]>(input[type="radio"])*2+input[type="submit"]+input[type="reset"]-->
+	<for name="choice" action="">
+	성별
+	<input type="radio"  name="gender" 
+	value="F"checked="checked"/>여
+	<input type="radio"  name="gender"
+	value="M"/>남
+	<hr />
+
+	학기
+	<!-- (input[type="radio" name="semester"valu=$"]{$학기}+br)*8-->
+	<input type="radio" name="semester" valu="1"" checked="checked"  />1학기
+	<br />
+	<input type="radio" name="semester" valu="2"" />2학기
+	<br />
+	<input type="radio" name="semester" valu="3"" />3학기
+	<br />
+	<input type="radio" name="semester" valu="4"" />4학기
+	<br />
+	<input type="radio" name="semester" valu="5"" />5학기
+	<br />
+	<input type="radio" name="semester" valu="6"" />6학기
+	<br />
+	<input type="radio" name="semester" valu="7"" />7학기
+	<br />
+	<input type="radio" name="semester" valu="8"" />8학기
+	<br />
+	<input type="submit"  value="전송하기"/>&nbsp
+	<input type="reset"  value="초기화"/>
+</form>
+<!-- radio 인풋
+	radio타입의 인풋은 여러 선택지중에서 중복선택을 목하는 경우 입력을 받을때 
+	radio에 name속성값을 동일하게 주면 하나의 그룹으로 묶을 수 있다. 
+	radio의 value속성을 모두 다르게 주어서 작성 
+	radio value속성을 다르게 주지 않으면 기본값인 on값이 전달된다.
+	 초기선택을 지정하고 싶을때 checked 옵션을 사용한다.-->
+</body>
+</html>

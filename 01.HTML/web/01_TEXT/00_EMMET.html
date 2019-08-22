@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>EMMET플러그인 문법</title>
+</head>
+<body>
+<h1>EMMET(ES ZEN-CODING) 사용법</h1>
+<h2>EMMET의 수식 형태 </h2>
+태그이름&GT;포함될태그이름&GT;...
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP;* 동일한 태크를 뒤에 나오는 숫자 만큼 반복 
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP;+ 연산자로 묶인 태그들을 서로 포함하지 않는 
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP;[속성="값"]시작태그에 속성을 부여할 때 태그이름 뒤에 붙여서 작성 
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP;() :
+ EMMT식의 우선순위를 높이거나 묶어서 실행해야하는 식을 결정 
+ <BR/><BR/>
+&NBSP;&NBSP;&NBSP; EMMET식을 작성한 뒤 단축기 CTRL E 로 실행 
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP;{} 태그 인쪽 컨텐츠 작성시 {}안에 작성 ]
+<BR/><BR/>
+&NBSP;&NBSP;&NBSP; $$ 자동으로 증가하는 숫자 작성 
+
+<HR/>
+<BR/>
+<ul type="SQUARE">
+	<li>목록컨텐트</li>
+	<li>목록컨텐트</li>
+	<li>목록컨텐트</li>
+	<li>목록컨텐트</li>
+	<li>목록컨텐트</li>
+</ul>
+
+<hr>
+
+UL[TYPE="SQUARE]>LI{$목록 아이템 내용}*5
+<ul type="square">01목록 아이템 내용</ul>
+<ul type="square">02목록 아이템 내용</ul>
+<ul type="square">03목록 아이템 내용</ul>
+<ul type="square">04목록 아이템 내용</ul>
+<ul type="square">05목록 아이템 내용</ul>
+</hr>
+
+<!-- div>(b{볼드체}+i{이탤릭체})-->
+<div><d>bold</d><i>italic</i></div>
+
+</body>
+</html>
